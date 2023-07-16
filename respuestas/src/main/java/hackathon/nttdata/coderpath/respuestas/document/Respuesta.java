@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class Respuesta {
 	
 	@Id
-	private long id;
+	private String id;
 	private String texto;
 	
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
