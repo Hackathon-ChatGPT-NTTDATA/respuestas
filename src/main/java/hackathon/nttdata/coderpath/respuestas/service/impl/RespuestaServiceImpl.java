@@ -34,15 +34,6 @@ public class RespuestaServiceImpl implements RespuestaService {
 	}
 	
 	@Override
-	public Map<String, Object> balanceadorTest() {
-		// TODO Auto-generated method stub
-		Map<String, Object> response = Maps.newHashMap();
-		response.put("balanceador", configuration.getBalanceadorTest());
-		response.put("Respuesta_asset", findAlls());
-		return response;
-	}
-	
-	@Override
 	public Mono<Respuesta> saves(Respuesta document) {
 		// TODO Auto-generated method stub
 		return RespuestaRepository.save(document);
@@ -54,4 +45,12 @@ public class RespuestaServiceImpl implements RespuestaService {
 		return RespuestaRepository.delete(document);
 	}
 	
+	@Override
+	public Map<String, Object> balanceadorTest() {
+		// TODO Auto-generated method stub
+		Map<String, Object> response = Maps.newHashMap();
+		response.put("balanceador", configuration.getBalanceadorTest());
+		response.put("Respuesta_asset", findAlls());
+		return response;
+	}
 }
