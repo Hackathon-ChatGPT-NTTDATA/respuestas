@@ -13,11 +13,12 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "Respuesta")
+@Document(collection = "respuesta")
 public class Respuesta {
 	
 	@Id
 	private String id;
+	
 	private String texto;
 	
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
