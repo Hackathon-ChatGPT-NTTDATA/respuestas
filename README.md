@@ -7,4 +7,4 @@ Flujo de proyecto:
 
 [![Watch the video](https://github.com/joffrehermosilla/makeupverse/blob/master/logoconcurso.JPG)](https://youtube.com/shorts/TZKM-_Vnp7g)
 
-![ScreenShot]([https://github.com/Hackathon-ChatGPT-NTTDATA/respuestas/blob/master/Hackathon-ChatGPT-NTTDATA-Arquitectura.drawio.png](https://github.com/Hackathon-ChatGPT-NTTDATA/respuestas/blob/master/Hackathon-ChatGPT-NTTDATA-Arquitectura.drawio.png)https://github.com/Hackathon-ChatGPT-NTTDATA/respuestas/blob/master/Hackathon-ChatGPT-NTTDATA-Arquitectura.drawio.png)
+![ScreenShot]([https://github.com/Hackathon-ChatGPT-NTTDATA/respuestas/blob/master/Hackathon-ChatGPT-NTTDATA-Arquitectura.drawio.pngg)
